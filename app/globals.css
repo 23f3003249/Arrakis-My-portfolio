@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  --font-display: var(--font-inter-tight), "Inter Tight", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-manrope), "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+}
+
+:root {
+  --arrakis-bg-alpha: 0.28;
+  --arrakis-surface-alpha: 0.22;
+  --arrakis-border-alpha: 0.16;
+}
+
+html,
+body {
+  background-color: rgba(8, 9, 11, 0.96);
+}
